@@ -72,6 +72,7 @@ def index():
 def move():
     request.get_data()
     logger.info(request.json)
+    print("bruh")
     return moves[random.randrange(len(moves))]
 
 
